@@ -30,7 +30,8 @@
 			"outFiles": [
 				"${workspaceFolder}/out/test/**/*.js"
 			],
-			"preLaunchTask": "npm: watch"
+			"preLaunchTask": "npm: watch",
+			"internalConsoleOptions": "openOnSessionStart"
 		},
 		{
 			"name": "Run Web Extension",
@@ -44,7 +45,8 @@
 			"outFiles": [
 				"${workspaceFolder}/out/**/*.js"
 			],
-			"preLaunchTask": "npm: compile-web"
+			"preLaunchTask": "npm: compile-web",
+			"internalConsoleOptions": "openOnSessionStart"
 		}
 	]
 }
